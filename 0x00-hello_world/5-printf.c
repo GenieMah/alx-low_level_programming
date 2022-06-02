@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
+ * main - interval entry point
  *
- * main - Entry point
+ * printf prints format: with proper grammar, but the outcome is a piece of art
  *
  */
 
