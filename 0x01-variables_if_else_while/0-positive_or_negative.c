@@ -7,8 +7,8 @@
 /**
  *  main - Entry point
  *
- * Description - assign random number to variable n
- *
+(* Description - assign random number to variable n
+ *print the number and if its positive, negative or zero)?
  * Return - 0 (Success)
  */
 
