@@ -7,22 +7,23 @@
  * main - entry point
  *
 (* Description: assign number to n every time its executed
- * print string "Lst digit is n is %i 
- * and is greater than 5" if greater than 5, "0" if 0,
- * or "less and not 0" if less than 6 or not 0.
+ * print the last number and whether it is > 5, < 6 or 0)?
  *
  * Return 0 - (Success)
  */
-
 int main(void)
 {
 	int n;
+	int last;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 5)
-		printf("Last digit of n is %i\n", n);
-	else if (n = 0)
-		printf(Last digit of n is %i\n)
+	last = n / 10;
+	if (last > 5)
+		printf("Last digit of n is %i is %i and is greater than 5\n", n, last);
+	if (last == 0)
+		printf("Last digit of n is %i is %i and is 0\n", n, last);
+	if (last < 6)
+		printf("Last digit of n is %i is %i and is less than 6\n", n, last);
 	return (0);
 }
