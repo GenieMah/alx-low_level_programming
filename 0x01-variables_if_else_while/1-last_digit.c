@@ -21,9 +21,9 @@ int main(void)
 	last = n % 10;
 	if (last > 5)
 		printf("Last digit of n is %i is %i and is greater than 5\n", n, last);
-	if (last == 0)
+	else if (last == 0)
 		printf("Last digit of n is %i is %i and is 0\n", n, last);
-	if (last < 6)
+	else if (last < 6)
 		printf("Last digit of n is %i is %i and is less than 6\n", n, last);
 	return (0);
 }
