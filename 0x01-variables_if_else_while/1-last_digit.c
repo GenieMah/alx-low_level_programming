@@ -9,7 +9,7 @@
 (* Description: assign number to n every time its executed
  * print the last number and whether it is > 5, < 6 or 0)?
  *
- * Return 0 - (Success)
+ * Return: 0 - Success
  */
 int main(void)
 {
