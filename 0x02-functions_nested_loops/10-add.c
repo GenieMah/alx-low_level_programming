@@ -8,13 +8,10 @@
  * Return: 0 - success
  */
 
-int add(int, int)
+int add(int a, int b)
 {
-	int a
-	int b
-	{
 		int sum = a + b; 
 	{
-	return (sum); }}
+	return (sum); }
 
 }
