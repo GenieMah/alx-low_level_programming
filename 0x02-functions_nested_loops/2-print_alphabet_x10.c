@@ -3,12 +3,12 @@
 /**
  * main - entry point
  *
- * print_alphabet: function prints the alphabet
+ * print_alphabet_x10: function prints the alphabet
  *
  * Return: 0 - success
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int times = 0;
 	char a = 'a';
@@ -21,5 +21,6 @@ void print_alphabet(void)
 		_putchar(a);
 		a++; }
 	 _putchar('\n'); }
+
 	++times;
 }
