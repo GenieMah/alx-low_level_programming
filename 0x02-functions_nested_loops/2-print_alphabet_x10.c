@@ -3,24 +3,23 @@
 /**
  * main - entry point
  *
- * print_alphabet function prints the alphabet
+ * print_alphabet: function prints the alphabet
  *
  * Return: 0 - success
  */
 
 void print_alphabet(void)
 {
-	int i = 0;
+	int times = 0;
 	char a = 'a';
 
-	while (i < 10)
+	while (times < 11)
 	{
-		i = 'a';
+		times = 'a';
 		while (a <= 'z')
 	{
 		_putchar(a);
 		a++; }
 	 _putchar('\n'); }
-	i++;
-	
+	++times;
 }
