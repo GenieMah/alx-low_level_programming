@@ -1,33 +1,16 @@
 #include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-
+#include "main.h"
 /**
  * main - Entry point
- *
-(* Description - assign random number to variable n
- * print the number and if its positive, negative or zero)?
  *
  * Return: 0 - Success
  */
 
 int main(void)
 {
-	int n;
+	int c;
 
-	srand(time(0));
-
-	n = rand() - RAND_MAX / 2;
-
-	if (n > 0)
-		printf("%i is positive\n", n);
-
-	else if (n < 0)
-		printf("%i is negative\n", n);
-
-	else
-		printf("%i is zero\n", n);
-
+	c = 0;
+	positive_or_negative(1);
 	return (0);
 }
-
