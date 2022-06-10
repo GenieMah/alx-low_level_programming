@@ -2,15 +2,13 @@
 
 /**
  *
- *
- *
- *
+ * Description: function prints out numbers
  *
  */
 
 void print_numbers(void)
 {
-	char a = 0
+	char a = 0;
 		while (a <= 9)
 		{
 		_putchar('0' + a);
