@@ -15,5 +15,6 @@ int main()
 		printf("Buzz"); }
 	{
 	else
-		printf(i); }
+		printf("%d", i); }
+	printf('\n');
 }
