@@ -8,10 +8,12 @@
 
 void print_numbers(void)
 {
-	int a = 0;
-		for (a = '0'; a <= '10'; a++)
+	int a;
+		for (a = 0; a <= 10; a++)
 	{
-		if (a != '2' && a != '4')
+		if ((a == 2) || (a == 4))
+		{
+			continue; }
 		_putchar('0' + a); }
 	_putchar('\n');
 }
