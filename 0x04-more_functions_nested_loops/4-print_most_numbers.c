@@ -6,7 +6,7 @@
  *
  */
 
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int a;
 		for (a = 0; a <= 10; a++)
