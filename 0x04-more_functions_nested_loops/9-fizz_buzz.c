@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
 	int = i;
 	for (i = 1; i <= 100; i++)
@@ -17,4 +17,3 @@ int main()
 	else
 		printf("%d", i); }
 	printf('\n');
-}
