@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * print_array - fucntion frints elements of an array
@@ -14,5 +14,5 @@ void print_array(int *a, int n)
 	 	printf("%d", *(a + 1));
 	 if (i != (n - 1))
 	 	printf(", "); }
-	 printf("\n")
+	 printf("\n");
 }
