@@ -6,13 +6,11 @@
 
 char *strcat(char *dest, char *src)
 {
-int n = -1, i;
-for (i = 0; dest[i] != '\0'; i++)
-	;
-	do {
-		n++;
-		dest[i] = src[n];
-		i++; }
-	while (src[a] != '\0');
+int n = 0, len = 0;
+while (dest[n++])
+	len++;
+for (n = 0; src[n]; n++;)
+	dest[len++] = src[n];
+
 return (dest);
 }
