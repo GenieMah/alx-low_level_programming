@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ * @haystack: string
+ * @needle: pointer
+ *
+(* Return: Null if str not found, else a pointer to the
+ * beginning of the substring)?
+ */
+
+char *_strstr(char *haystack, char *needle)
+{
+	int i, j;
+	for (i = 0; haystack[i] > '\0'; i++) {
+		for (j = 0; haystack[j] > '\0' && needle[j - i] > '\0'; j++) {
+		if (haystack[j] != needle[j - i]) {
+			break; }}
+		if (needle[j - i] == '\0') {
+			return (haystack + i); }}
+}
