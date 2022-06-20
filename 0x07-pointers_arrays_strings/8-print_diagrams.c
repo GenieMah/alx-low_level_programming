@@ -2,9 +2,7 @@
 #include <stdio.h>
 
 /**
- *
- *
- *
+ * @a: pointer to int
  *
  */
 
@@ -14,6 +12,5 @@ void print_diagsums(int *a, int size)
 		sum += a[i];
 		sum1 += a[size - i - 1];
 		a += size; }
-	printf("%d\n", sum);
-	printf("%d\n", sum1);
+	printf("%i\n%i\n", sum, sum1);
 }
