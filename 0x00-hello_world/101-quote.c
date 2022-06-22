@@ -6,9 +6,8 @@
  * Return 1
  */
 
-int main()
+int main(void)
 {
-	char i = 'and that piece of art is useful" - Dora Korpar, 2015-10-19';
-	putchar(i);
+	write("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
 	return (1);
 }
