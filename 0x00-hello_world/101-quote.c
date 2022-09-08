@@ -1,11 +1,11 @@
 #include<unistd.h>
 
 /**
- * main: code entry/starting point
+ * Main - code entry/starting point
  *
  * Description: code outputs the quote to the console
  *
- * Return 1
+ * Return 1 - Success
  */
 
 int main(void)
