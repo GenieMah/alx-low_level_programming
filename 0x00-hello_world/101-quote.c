@@ -1,7 +1,9 @@
 #include<unistd.h>
 
 /**
- * main: prints out quote
+ * main: code entry/starting point
+ *
+ * Description: code outputs the quote to the console
  *
  * Return 1
  */
