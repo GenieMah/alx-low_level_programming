@@ -1,17 +1,13 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * add - function prints the sum
  *
- * Description: function prints the sum
- *
- * Return: 0 - success
+ * Returns the sum of the two inputted values
  */
 
 int add(int a, int b)
 {
-		int sum = a + b;
-	{
-	return (sum); }
-
+	int sum = a + b;
+	return (sum);
 }
