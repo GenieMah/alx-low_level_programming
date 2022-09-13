@@ -1,24 +1,36 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main: starting pouint
+ * print_to_98 - function prints number to 98
+ *
+ * @n: initial parameter
  *
  * Return: 0 Success
  */
 
-int main(void)
+void print_to_98(int n)
 {
-	int n;
-
 	if (n <= 98)
 	{
-		printf("%i", n);
-		n++;
+		for (; n <= 98; n++)
+			printf("%i", n);
+
+		while (n < 98)
+		{
+			printf(", ");
+		}
+		
 	}
 	else if (n >= 98)
 	{
-		printf("%i", n);
-		n--;
+		for (; n >= 98; n--)
+			printf("%i", n);
+		while (n > 98)
+		{
+			printf(", ");
+		}
 	}
+	printf("\n");
 	return 0;
 }
