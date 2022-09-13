@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * print_last_digit - function prints the last digit of a number
  *
- * print_alphabet function prints the alphabet
+ * @n: initial parameter
+ *
+ * Return: value of the last digit (last)
  *
  */
 
