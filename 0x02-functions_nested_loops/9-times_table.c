@@ -19,7 +19,7 @@ void times_table(void)
 
 		for (n = 1; n <= 9; n++)
 		{
-		t = 1 * n;
+		t = i * n;
 			if ((t / 10) > 0)
 			{
 				_putchar((t/10) + '0');
