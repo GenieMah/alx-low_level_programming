@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * print_alphabet -  a function that prints the alphabet, starting with 'a'
  *
- * print_alphabet() function: prints the alphabet
- *
- * Return: 0 - success
+ * Return: alphabet
  */
 
 void print_alphabet(void)
@@ -15,7 +13,7 @@ void print_alphabet(void)
 	while (a <= 'z')
 	{
 		_putchar(a);
-		a++; 
+		a++;
 	}
 	_putchar('\n');
 }
