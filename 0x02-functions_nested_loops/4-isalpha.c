@@ -1,23 +1,21 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * _isalpha - function prints 1 if conditions are met
  *
- * Description: function prints 1 if conditions are met
+ * @c: first parameter
  *
- * Return: 1 - is alpha
+ * Return: 1 - if c is an alphabet
  */
 
 int _isalpha(int c)
 {
-	if (c >= 'a' && c <= 'z')
+	if (c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z')
 	{
-	return (1); }
-
-	else if (c >= 'A' && c <= 'Z')
-	{
-	return (1); }
+		return (1);
+	}
 	else
 	{
-	return (0); }
+		return (0);
+	}
 }
