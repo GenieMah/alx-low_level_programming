@@ -25,7 +25,7 @@ void print_to_98(int n)
 	{
 		for (; n >= 98; n--)
 		{
-			printf("%i", n)
+			printf("%i", n);
 			while (n > 98)
 			{
 				printf(", ");
