@@ -6,7 +6,7 @@
  * Return: 0 Success
  */
 
-int main()
+int main(int)
 {
 	int n;
 
@@ -20,4 +20,5 @@ int main()
 		printf("%i", n);
 		n--;
 	}
+	return 0;
 }
