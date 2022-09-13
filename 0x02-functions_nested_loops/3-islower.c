@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _islower: function prints the 1 if conditions are met
+ * _islower - function prints letters in lower case
  *
- * Return 1 if 'c' is lower case
- * Return 0 otherwise
+ * @c: first parameter
+ *
+ * Return 1 if @c is lower case
  */
 
 int _islower(int c)
