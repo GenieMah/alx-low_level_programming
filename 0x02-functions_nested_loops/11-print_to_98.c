@@ -15,9 +15,9 @@ void print_to_98(int n)
 		for (; n <= 98; n++)
 		{	
 			printf("%i", n);
+			printf(", ");
 			while (n == 98)
 				break;
-			printf(", ");
 		}
 	}
 	else if (n >= 98)
