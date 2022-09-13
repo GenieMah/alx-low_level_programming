@@ -1,23 +1,24 @@
 #include "main.h"
 
 /**
- * print_alphabet - function prints the alphabet
+ * print_alphabet_x10 -  a function that prints the alphabet, starting with 'a'
  *
  * Return: alphabet 10 times
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int i;
-	char a = 'a';
 
-        for (i = 0; i <= 10; i++)
+	for (i = 0; i <= 10; i++)
 	{
+		char a = 'a';
+
 		while (a <= 'z')
-        	{
-                	_putchar(a);
-                	a++;
-			_putchar('\n');
-        	}
+		{
+			_putchar(a);
+			a++;
+		}
+		_putchar('\n');
 	}
 }
