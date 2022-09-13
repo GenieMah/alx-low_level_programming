@@ -13,23 +13,21 @@ void print_to_98(int n)
 	if (n <= 98)
 	{
 		for (; n <= 98; n++)
+		{	
 			printf("%i", n);
-
-		while (n < 98)
-		{
+			while (n == 98)
+				break;
 			printf(", ");
 		}
-		
 	}
 	else if (n >= 98)
 	{
 		for (; n >= 98; n--)
 		{
 			printf("%i", n);
-			while (n > 98)
-			{
-				printf(", ");
-			}
+			while (n == 98)
+				break;
+			printf(", ");
 		}
 	}
 	printf("\n");
