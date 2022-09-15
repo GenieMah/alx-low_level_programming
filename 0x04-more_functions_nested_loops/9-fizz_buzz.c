@@ -2,15 +2,14 @@
 
 int main(void)
 {
-	int = i;
-
-	for (i = 1; i <= 100; i++)
+	int i;
+	
+	for(i = 0; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-		printf("FizzBuzz ");
+			printf("FizzBuzz ");
 		}
-
 		else if (i % 3 == 0)
 		{
 			printf("Fizz ");
@@ -19,7 +18,12 @@ int main(void)
 		{
 			printf("Buzz ");
 		}
-		else (i % 3 != 0 && i % 5 != 0)
+		else
 		{
-			printf("%d ", i); }
+			printf("%i ", i);
+		}
+	}
 	printf("\n");
+
+	return 0;
+}
