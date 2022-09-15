@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
+ * print_line - function prints out a line based in inputted value
  *
-(* Description: function prints out character b
- * amount of times)?
+ * @n: initial parameter
  *
+ * No return
  */
 
 void print_line(int n)
@@ -13,11 +14,13 @@ void print_line(int n)
 
 	if (n <= 0)
 	{
-	_putchar('\n'); }
+		_putchar('\n');
+	}
 
 	else
 	{
-	for (a = 1; a <= n; a++)
-	_putchar('_'); }
+		for (a = 0; a <= n; a++)
+			_putchar('_');
+	}
 	_putchar('\n');
 }
