@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * print_numbers - function prints numbers onto the console
  *
  * No Return

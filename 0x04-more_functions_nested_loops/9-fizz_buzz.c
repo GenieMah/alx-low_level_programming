@@ -1,10 +1,16 @@
 #include <stdio.h>
 
+/**
+ * main - entry point
+ *
+ * Return: (0) Success
+ */
+
 int main(void)
 {
 	int i;
-	
-	for(i = 0; i <= 100; i++)
+
+	for (i = 0; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
@@ -25,5 +31,5 @@ int main(void)
 	}
 	printf("\n");
 
-	return 0;
+	return (0);
 }
