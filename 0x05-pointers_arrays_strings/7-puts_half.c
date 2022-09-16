@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
+ * puts_half - function outputs half og the string onto the console
  *
- *
+ * @str: initial parameter to be assessed
  */
 
 void puts_half(char *str)

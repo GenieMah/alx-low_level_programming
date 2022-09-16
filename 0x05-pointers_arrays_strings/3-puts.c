@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * _puts - prints str
- * 
+ * _puts - prints the value of str
+ *
+ * @str: initial parameter to be assessed
  */
 
 void _puts(char *str)
@@ -12,6 +13,7 @@ void _puts(char *str)
 	while (str[i])
 	{
 		_putchar(str[i]);
-		i++; }
+		i++;
+	}
 	_putchar('\n');
 }

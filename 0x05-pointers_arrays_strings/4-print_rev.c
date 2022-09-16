@@ -3,7 +3,7 @@
 /**
  * print_rev - prints string in reverse
  *
- * @s - pointer to string
+ * @s: initial parameter (char pointer)
  */
 
 void print_rev(char *s)
@@ -12,8 +12,9 @@ void print_rev(char *s)
 
 	while (s[c])
 		c++;
-	while (c--) {
-		_putchar(s[c]); }
+
+	while (c--)
+		_putchar(s[c]);
 
 	_putchar('\n');
 }
