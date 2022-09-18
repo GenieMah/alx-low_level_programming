@@ -9,6 +9,8 @@ int main(void)
 {
 	int i;
 
+	int = -45;
+
 	positive_or_negative(i);
 
 	return (0);
