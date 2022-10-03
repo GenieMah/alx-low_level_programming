@@ -2,7 +2,7 @@
 
 /**
  * factorial - function prints out the factorial of n
- * 
+ *
  * @n: int block
  *
  * Return: -1 if n < 0
