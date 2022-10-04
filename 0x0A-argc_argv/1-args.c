@@ -11,6 +11,13 @@
 
 int main(int argc, char *__attribute__((unused)) argv[])
 {
-	printf("%d\n", argc - 1);
+	int c;
+
+	if (argc > 1)
+	{
+		for (c = 1; c < argc; c++)
+		{
+			printf("%d", c);
+		}
 	return (0);
 }
