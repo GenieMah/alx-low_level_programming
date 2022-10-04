@@ -4,7 +4,7 @@
  * main - program's starting point
  *
  * @argc: argument count
- * @argv: arguement vector
+ * @__attribute__((unused)) argv: arguement vector
  *
  * Return: 0 - Success
  */
