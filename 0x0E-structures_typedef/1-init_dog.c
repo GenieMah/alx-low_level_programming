@@ -1,5 +1,4 @@
 #include "dog.h"
-#include "main.h"
 
 /**
  * init_dog - function initialises a var of type struct dog
@@ -12,7 +11,7 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	while (d != NULL)
+	if (d != NULL)
 	{
 		(*d).name = name;
 		(*d).age = age;
